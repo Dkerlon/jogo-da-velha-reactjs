@@ -1,0 +1,70 @@
+.gamecontent{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo{
+    display: flex;
+    width: 28%;
+    height: 28%;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    border: 1px solid #ccc;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.scorePainel{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    width: 450px;
+    margin-left: 25px;
+    height: 70px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.scorePainel div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    width: 50%;
+    height: 100%;
+    transition: all .05s linear
+}
+
+.red_score{
+    color: red;
+}
+.blue_score{
+    color: blue;
+}
+
+.bordaR{
+    border-bottom: 4px solid red;
+}
+
+.bordaA{
+    border-bottom: 4px solid blue;
+}
